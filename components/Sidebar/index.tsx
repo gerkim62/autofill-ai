@@ -31,13 +31,32 @@ import { SidebarItem } from "./SidebarItem";
 
 const Sidebar = () => {
   const sidebarItems: SidebarItem[] = [
-    //how it works
-    { label: "How it Works", path: "/how-it-works", icon: FaInfoCircle },
-    { label: "How to Install", path: "/how-to-install", icon: FaDownload },
-  { label: "How to Setup", path: "/how-to-set-up", icon: FaCogs },
-  { label: "How to Use", path: "/how-to-use", icon:FaRocket },
-  { label: "Suggestions", path: "/suggestions", icon: FaComments },
-  { label: "About", path: "/about", icon: FaUser },
+    {
+      label: "About",
+      path: "/about",
+      icon: FaInfoCircle,
+    },
+
+    {
+      label: "Install",
+      path: "/install",
+      icon: FaDownload,
+    },
+    {
+      label: "Setup",
+      path: "/setup",
+      icon: FaCogs,
+    },
+    {
+      label: "Usage",
+      path: "/usage",
+      icon: FaRocket,
+    },
+    {
+      label: "Suggestions",
+      path: "/suggestions",
+      icon: FaComments,
+    },
   ];
 
   const [sidebarShowing, setSidebarShowing] = useState(false);
