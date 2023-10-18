@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
+import TermsAlert from "@/components/TermsAlert";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
         className={`${inter.className} flex flex-col min-h-screen w-[100vw]`}
         style={{ display: "flex", flexDirection: "column" }}
       >
+        <TermsAlert />
         <div className="flex flex-grow w-[100vw] ">
           <div className="">
             <Sidebar />
