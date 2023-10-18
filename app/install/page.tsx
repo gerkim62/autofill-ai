@@ -26,7 +26,7 @@ const InstallationGuide = () => {
                 className="flex items-center text-blue-600 hover:underline my-2"
               >
                 
-                Click here to Download Autofill AI file
+                Click to Download Autofill AI file
                 <FaDownload className="ml-2" />
               </a>
             </p>
@@ -45,7 +45,7 @@ const InstallationGuide = () => {
                 target="_blank"
                 className="flex items-center hover:underline text-blue-600 hover:underline my-2"
               >
-                Click here to download Kiwi Browser
+                Click to download Kiwi Browser
                 <FaExternalLinkAlt className="ml-2 " />
               </a>
             </p>
