@@ -35,7 +35,7 @@ const page = () => {
              Click here to go to Test Quiz
               <FaExternalLinkAlt className="ml-2" />
             </a>
-           Once you are on the quiz page, click on the lightbulb icon on the bottom right of the screen and choose the "Autofill Quiz" button. If the AI fills the quiz correctly, you are good to go!
+           Once you are on the quiz page, click on the lightbulb icon on the bottom right of the screen and choose the Autofill Quiz button. If the AI fills the quiz correctly, you are good to go!
           </p>
         </li>
         <li className="mb-4">

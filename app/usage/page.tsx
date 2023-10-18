@@ -32,7 +32,7 @@ const HowToUseGuide = () => {
         <li className="mb-4">
           <strong className="text-pink-600">Step 4:</strong>
           <p>
-            Choose "Autofill Quiz" from the options that appear.
+            Choose &quot;Autofill Quiz&quot; from the options that appear.
           </p>
         </li>
         <li className="mb-4">

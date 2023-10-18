@@ -31,7 +31,7 @@ const InstallationGuide = () => {
               </a>
             </p>
             <p className="text-sm text-gray-500">
-              Keep the downloaded file as it is; don't open or extract it.
+              Keep the downloaded file as it is; do not open or extract it.
             </p>
           </li>
 
@@ -41,7 +41,7 @@ const InstallationGuide = () => {
             </strong>
             <p>
               <a
-                href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&pcampaignid=web_share"
+                href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&amp;pcampaignid=web_share"
                 target="_blank"
                 className="flex items-center hover:underline text-blue-600 hover:underline my-2"
               >
@@ -65,7 +65,7 @@ const InstallationGuide = () => {
             <strong className="font-semibold text-pink-600">
               Select Extensions
             </strong>
-            <p>Choose "Extensions" from the menu.</p>
+            <p>Choose &quot;Extensions&quot; from the menu.</p>
             <img src="img/extensions.jpg" alt="Kiwi Browser Extensions" />
           </li>
 
@@ -73,7 +73,7 @@ const InstallationGuide = () => {
             <strong className="font-semibold text-pink-600">
               Enable Developer Mode
             </strong>
-            <p>Turn on "Developer mode" using the switch.</p>
+            <p>Turn on &quot;Developer mode&quot; using the switch.</p>
             <img src="img/dev-mode.jpg" alt="Kiwi Browser developer mode" />
           </li>
 
@@ -84,7 +84,7 @@ const InstallationGuide = () => {
             <p>
               Click the{" "}
               <span className="whitespace-no-wrap">
-                "+(from .zip/.crx/.user.js)"
+                &quot;+(from .zip/.crx/.user.js)&quot;
               </span>{" "}
               button.
             </p>
