@@ -32,12 +32,6 @@ import { SidebarItem } from "./SidebarItem";
 const Sidebar = () => {
   const sidebarItems: SidebarItem[] = [
     {
-      label: "About",
-      path: "/about",
-      icon: FaInfoCircle,
-    },
-
-    {
       label: "Install",
       path: "/install",
       icon: FaDownload,
@@ -56,6 +50,11 @@ const Sidebar = () => {
       label: "Suggestions",
       path: "/suggestions",
       icon: FaComments,
+    },
+    {
+      label: "About",
+      path: "/about",
+      icon: FaInfoCircle,
     },
   ];
 
