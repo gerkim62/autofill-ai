@@ -58,7 +58,7 @@ const faqs = [
 
 const FaqPage = () => {
   return <div className="mt-20 mx-5 ml-20">
-    <h1 className="text-2xl font-bold mb-4">Frequently Asked Questions</h1>
+    <h1 className="text-sm font-bold mb-2">Frequently Asked Questions</h1>
     <div className="space-y-4">
         <FAQ faqs={faqs} />
     </div>
