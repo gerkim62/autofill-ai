@@ -7,7 +7,7 @@ const LandingPage = () => {
       <div className="text-center">
         <h1 className="sm:text-4xl text-2xl font-bold text-pink-500 mb-4">Welcome to Autofill AI</h1>
         <p className="text-gray-600 text-lg mb-8">Your Ultimate Study Companion</p>
-        <p className="text-gray-800 text-xl mb-8">
+        <p className="text-gray-800 text-xl mb-8 mx-2">
           Autofill AI is a powerful tool designed to help you excel in your studies.
         </p>
         <div className="mb-12">
