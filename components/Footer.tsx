@@ -4,11 +4,11 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-6 mt-auto lg:ml-[137px]">
       <div className="container mx-auto flex flex-col justify-center items-center">
-        <p className="text-sm opacity-75 mb-3">
+        <p className="text-sm opacity-75 mb-3 whitespace-nowrap">
           &copy; {new Date().getFullYear()} All rights reserved.
         </p>
         <p className="text-base mb-3">
-          Get in Touch:{" "}
+        Contact:{" "}
           <a
             href="https://wa.me/254715870654"
             target="_blank"
@@ -24,7 +24,7 @@ function Footer() {
             href="https://autofillai.com/terms"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-pink-300 hover:underline"
+            className="text-pink-300 hover:underline whitespace-nowrap"
           >
             Terms and Conditions
           </a>
