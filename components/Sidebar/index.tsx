@@ -106,7 +106,6 @@ const Sidebar = () => {
         {sidebarShowing ? <FaTimes size={30} /> : <FaBars size={30} />}
       </button>
 
-      <div className="w-screen h-[60px] fixed top-0 z-[49] backdrop-blur-sm shadow-sm"></div>
 
       <Link
         href={"/"}
