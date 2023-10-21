@@ -46,6 +46,14 @@ const faqs = [
     answer:
       "Use the suggestion form on the Autofill AI website. We'd love to hear from you!",
   },
+  {
+    question:"Can I let Autofill reference my notes when generating answers?",
+    answer:"Yes, Autofill AI can use your notes to generate answers. Make sure to press the upload button and turn on the notes in the menu.",
+  },
+  {
+    question:"How do I access Autofill Menu?",
+    answer:"Click on the lightbulb icon in the bottom right corner of your browser.",
+  }
 ];
 
 const FaqPage = () => {
