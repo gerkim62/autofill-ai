@@ -6,6 +6,10 @@ const InstallationGuide = () => {
   return (
     <div className="bg-white min-h-screen">
       <div className="container mx-auto p-8 mt-10">
+
+
+        <p>If you want to install Autofill on Laptop or Computer, <a className="underline text-pink-500" href="">watch this short video</a></p>
+
         <h1 className="text-2xl font-bold max-w-lg mx-auto">
           How to Install Autofill AI on Android Phone
         </h1>
