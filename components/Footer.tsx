@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-auto">
+    <footer className="bg-gray-800 text-white py-6 mt-auto lg:ml-[137px]">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <p className="text-sm opacity-75 mb-3">
           &copy; {new Date().getFullYear()} All rights reserved.

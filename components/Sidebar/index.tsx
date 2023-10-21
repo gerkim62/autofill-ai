@@ -21,6 +21,8 @@ import {
   FaRocket,
   FaInfo,
   FaInfoCircle,
+  FaQuestion,
+  FaFile,
 } from "react-icons/fa";
 import React from "react";
 import Link from "next/link";
@@ -32,12 +34,12 @@ import { SidebarItem } from "./SidebarItem";
 const Sidebar = () => {
   const sidebarItems: SidebarItem[] = [
     {
-      label: "Install",
+      label: "Installation",
       path: "/install",
       icon: FaDownload,
     },
     {
-      label: "Setup",
+      label: "Setting Up",
       path: "/setup",
       icon: FaCogs,
     },
@@ -45,6 +47,11 @@ const Sidebar = () => {
       label: "Usage",
       path: "/usage",
       icon: FaRocket,
+    },
+    {
+      label: "FAQs",
+      path: "/faq",
+      icon: FaQuestion,
     },
     {
       label: "Suggestions",

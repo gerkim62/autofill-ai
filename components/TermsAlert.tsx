@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
 
 const TermsAlert = () => {
@@ -17,14 +18,14 @@ const TermsAlert = () => {
             <h2 className="text-2xl font-bold mb-2">Terms and Conditions</h2>
             <p className="text-lg">
               By using Autofill, you agree to the{" "}
-              <a
-                href="https://autofillai.com/terms"
+              <Link
+                href="/terms"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold hover:underline"
               >
                 Terms and Conditions
-              </a>
+              </Link>
             </p>
             <button
               className="bg-pink-600 text-white px-4 py-2 mt-4 rounded-full hover:bg-pink-700 focus:outline-none border"
