@@ -9,7 +9,7 @@ function AutoFillTerms() {
 
       <div className="text-gray-700">
         <p className="mb-4">
-          These Terms and Conditions ("Terms") are a legally binding agreement
+          These Terms and Conditions (&quot;Terms&quot;) are a legally binding agreement
           between you, the user, and Autofill AI, a software application
           provided for educational and proof-of-concept purposes. By accessing
           and utilizing this software, you indicate your unequivocal consent to
@@ -54,7 +54,7 @@ function AutoFillTerms() {
         </p>
 
         <h2 className="text-xl text-pink-500 mb-4 font-semibold">
-          3. Developer's Non-Responsibility
+          3. Developer&apos;s Non-Responsibility
         </h2>
         <p className="mb-4">
           3.1. The developer of Autofill AI shall not, under any circumstances,
@@ -113,7 +113,7 @@ function AutoFillTerms() {
           adverse academic, legal, or other consequences that may ensue from
           improper use of Autofill AI. The developer is indemnified and held
           harmless from and against any and all liabilities arising from the
-          user's actions and conduct.
+          user&apos;s actions and conduct.
         </p>
 
         <h2 className="text-xl text-pink-500 mb-4 font-semibold">

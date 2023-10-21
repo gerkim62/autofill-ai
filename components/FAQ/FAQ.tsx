@@ -13,7 +13,7 @@ const FAQ = ({faqs}:Props) => {
   return (
     <div>
       {faqs.map((faq) => (
-        <FAQItem question={faq.question} answer={faq.answer} />
+        <FAQItem key={faq.question} question={faq.question} answer={faq.answer} />
       ))}
     </div>
   );
