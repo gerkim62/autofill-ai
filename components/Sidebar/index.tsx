@@ -121,7 +121,7 @@ const Sidebar = () => {
 
       <div
         style={{ zIndex: 100 }}
-        className={`fixed z-10 lg:bottom-0 lg-w-[270px] ${
+        className={`fixed z-10 lg:bottom-0 lg:top-0 lg-w-[270px] ${
           !isLgScreen && !sidebarShowing ? "bg-transparent" : ""
         }`}
       >
@@ -132,7 +132,7 @@ const Sidebar = () => {
           width={sidebarShowing || isLgScreen ? "270px" : "0"}
           // width="unset"
           toggled={false}
-          className={`h-screen lg:h-[95vh] overflow-y-auto 
+          className={`h-screen  overflow-y-auto 
           overflow-x-hidden bg-white !lg:w-[270px]  ${
             sidebarShowing ? "!w-[270px]" : "!w-[0]"
           }`}

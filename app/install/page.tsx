@@ -5,10 +5,10 @@ import { FaDownload, FaExternalLinkAlt } from "react-icons/fa";
 const InstallationGuide = () => {
   return (
     <div className="bg-white min-h-screen">
-      <div className="container mx-auto p-8 mt-10">
+      <div className="container mx-auto p-8 mt-10 lg:mt-5">
        
 
-        <h1 className="text-2xl font-bold max-w-lg mx-auto">
+        <h1 className="text-xl lg:text-2xl font-bold max-w-lg mx-auto">
           How to Install Autofill AI on Android Phone
         </h1>
 

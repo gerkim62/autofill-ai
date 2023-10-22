@@ -14,7 +14,7 @@ const TermsAlert = () => {
     <div>
       {showPopup && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50 lg:ml-[137px]">
-                <div className="w-screen h-[60px] fixed top-0 z-[1111149] backdrop-blur-sm shadow-sm bg-white"></div>
+          <div className="w-screen h-[60px] fixed top-0 z-[1111149] backdrop-blur-sm shadow-sm bg-white lg:hidden"></div>
 
           <div className="bg-pink-600 p-4 rounded-sm text-white text-center m-2 ">
             <h2 className="text-2xl font-bold mb-2">Terms and Conditions</h2>
@@ -33,7 +33,7 @@ const TermsAlert = () => {
               className="bg-pink-600 text-white px-4 py-2 mt-4 rounded-full hover:bg-pink-700 focus:outline-none border"
               onClick={togglePopup}
             >
-             Agree and Close
+              Agree and Close
             </button>
           </div>
         </div>
