@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
 import Sidebar from "@/components/Sidebar";
 import TermsAlert from "@/components/TermsAlert";
+import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <ClerkProvider>
       <body
         className={`${inter.className} flex flex-col min-h-screen w-[100vw]`}
         style={{ display: "flex", flexDirection: "column" }}
@@ -41,6 +43,7 @@ export default function RootLayout({
         </div>
         <Footer />
       </body>
+      </ClerkProvider>
     </html>
   );
 }
