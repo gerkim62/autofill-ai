@@ -5,40 +5,43 @@ const userSchema = new Schema(
   {
     username: {
       type: String,
-      required: true,
-      unique: true,
-      message: "Username is required",
+      required: [true, "Username is required"],
     },
     password: {
       type: String,
-      required: true,
-      message: "Password is required",
+      required: [true, "Password is required"],
     },
-
     fullName: {
       type: String,
       required: false,
     },
     schoolUrls: {
+      required: true,
       type: Array,
-      required: false,
     },
     freeBalance: {
       type: Number,
-      required: false,
+      required: true,
     },
     depositedBalance: {
       type: Number,
-      required: false,
+      required: true,
     },
     paidQuizIds: {
       type: Array,
-      required: false,
+      required: true,
+    },
+    apiKeys: {
+      type: Array,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now, // Set a default value to the current date and time
     },
     transactions: [Transaction.schema],
     uploadedResourcesIds: {
       type: Array,
-      required: false,
+      required: true,
     },
   },
   {
@@ -46,6 +49,6 @@ const userSchema = new Schema(
   }
 );
 
-const User =mongoose.models.User || mongoose.model("User", userSchema);
+const User = mongoose.models.User || mongoose.model("User", userSchema);
 
 export default User;

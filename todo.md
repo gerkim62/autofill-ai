@@ -1,0 +1,1 @@
+add removing spaces trimming before carrying out db operation
